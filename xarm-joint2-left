@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import xarm
+
+arm = xarm.Controller('USB')
+
+print('bending joint2 (middle) to the left')
+
+arm.setPosition(4, 400)

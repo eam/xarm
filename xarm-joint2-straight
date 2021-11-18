@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+
+import xarm
+
+arm = xarm.Controller('USB')
+
+print('straightening joint2 (middle)')
+
+arm.setPosition(4, 500)
